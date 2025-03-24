@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuário</title>
+</head>
+<body>
+    <!--Formulário-->
+    <h2>Formulário</h2>
+    <form action=".sql" method="post">
+        <p>Nome: <input type="text" name="Nome" placeholder="Escreva seu nome" size="60"/></p>
+        <p>Telefone: <input type="tel" placeholder="(00) 00000-0000" maxlength="11"/></p>
+        <p>Data de Nascimento:<input type="date"/></p>
+        <p>Senha: <input type="password" maxlength="8"/>(A senha pode ter até 8 caracteres)</p>
+        <p>Email: <input type="email"/></p>
+        <p>Idade: <input type="number"/></p>
+        Comnetários:
+        <textarea rows="3" cols="10">
+        </textarea>
+        <!--Estrutura de Opções-->
+        <p> Time de Futebol:
+            <br />
+            <br />
+            <input tyme="radio" neme="Time" value="Brasil"/> Brasil
+            <br />
+            <br />
+            <input tyme="radio" neme="Time" value="Argentina"/> Argentina
+            <br />
+            <br />
+            <input tyme="radio" neme="Time" value="Peru"/> Peru
+        </p>
+        <!--Estrutura de Seleção-->
+        <p>
+            <select>
+                <option value="Goiás">Goiás</option>
+                <option value="DF">DF</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Paraíba">Paraíba</option>
+            </select>
+        </p>
+    </form>
+</body>
+</html>
