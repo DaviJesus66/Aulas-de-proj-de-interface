@@ -1,0 +1,19 @@
+/*Primeirs Passos da Linguagem*/
+body {
+    background-color: burlywood;
+    margin: 60px auto;
+    border: rgb(124, 86, 86) 4px;
+    padding: 10;
+}
+#bodyindex {
+    background-color:aqua;
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+}
+table {
+    border: black 10px;
+}
